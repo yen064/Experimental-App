@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 //        test1()
-        
+        StatePattern.Warrior.test()
     }
     
     func test1() {

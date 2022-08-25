@@ -20,6 +20,8 @@
 		CA33D6F528B71B8000AD8BD8 /* FunctionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6F428B71B8000AD8BD8 /* FunctionHelper.swift */; };
 		CA33D6F728B7201200AD8BD8 /* SDKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6F628B7201200AD8BD8 /* SDKError.swift */; };
 		CA33D6F928B7205500AD8BD8 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6F828B7205500AD8BD8 /* Storyboarded.swift */; };
+		CA33D6FE28B7251300AD8BD8 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6FD28B7251300AD8BD8 /* Warrior.swift */; };
+		CA33D70028B725CD00AD8BD8 /* WarriorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6FF28B725CD00AD8BD8 /* WarriorState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		CA33D6F428B71B8000AD8BD8 /* FunctionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionHelper.swift; sourceTree = "<group>"; };
 		CA33D6F628B7201200AD8BD8 /* SDKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKError.swift; sourceTree = "<group>"; };
 		CA33D6F828B7205500AD8BD8 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		CA33D6FD28B7251300AD8BD8 /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		CA33D6FF28B725CD00AD8BD8 /* WarriorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarriorState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		CA33D6BF28B71B0900AD8BD8 /* DeignPatternImplementationApp */ = {
 			isa = PBXGroup;
 			children = (
+				CA33D6FA28B724AF00AD8BD8 /* StatePattern */,
 				CA33D6F328B71B6200AD8BD8 /* Tool */,
 				CA33D6C028B71B0900AD8BD8 /* AppDelegate.swift */,
 				CA33D6C228B71B0900AD8BD8 /* SceneDelegate.swift */,
@@ -145,6 +150,15 @@
 				CA33D6F828B7205500AD8BD8 /* Storyboarded.swift */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		CA33D6FA28B724AF00AD8BD8 /* StatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				CA33D6FD28B7251300AD8BD8 /* Warrior.swift */,
+				CA33D6FF28B725CD00AD8BD8 /* WarriorState.swift */,
+			);
+			path = StatePattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +295,10 @@
 				CA33D6C528B71B0900AD8BD8 /* ViewController.swift in Sources */,
 				CA33D6C128B71B0900AD8BD8 /* AppDelegate.swift in Sources */,
 				CA33D6F528B71B8000AD8BD8 /* FunctionHelper.swift in Sources */,
+				CA33D70028B725CD00AD8BD8 /* WarriorState.swift in Sources */,
 				CA33D6F728B7201200AD8BD8 /* SDKError.swift in Sources */,
 				CA33D6CB28B71B0900AD8BD8 /* DeignPatternImplementationApp.xcdatamodeld in Sources */,
+				CA33D6FE28B7251300AD8BD8 /* Warrior.swift in Sources */,
 				CA33D6C328B71B0900AD8BD8 /* SceneDelegate.swift in Sources */,
 				CA33D6F928B7205500AD8BD8 /* Storyboarded.swift in Sources */,
 			);
