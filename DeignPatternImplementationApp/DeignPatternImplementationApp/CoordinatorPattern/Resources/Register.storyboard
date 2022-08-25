@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Register View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="RegisterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="RegisterViewController" customModule="iAmSDK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJR-SC-f92">
+                                <rect key="frame" x="139.5" y="387" width="135.5" height="122"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwx-aL-J5E">
+                                        <rect key="frame" x="20" y="20" width="95.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="返回"/>
+                                        <connections>
+                                            <action selector="onBackButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="cMi-s1-sJN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xgk-C7-bbs">
+                                        <rect key="frame" x="20" y="71" width="95.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="註冊下一步"/>
+                                        <connections>
+                                            <action selector="onNextButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="NkA-Ys-zBi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="iwx-aL-J5E" firstAttribute="height" secondItem="Xgk-C7-bbs" secondAttribute="height" id="JTO-2h-3OT"/>
+                                    <constraint firstItem="Xgk-C7-bbs" firstAttribute="centerX" secondItem="iwx-aL-J5E" secondAttribute="centerX" id="OyF-NS-nWZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xgk-C7-bbs" secondAttribute="bottom" constant="20" id="TZq-SY-Dnp"/>
+                                    <constraint firstItem="Xgk-C7-bbs" firstAttribute="top" secondItem="iwx-aL-J5E" secondAttribute="bottom" constant="20" id="hPT-2D-qFs"/>
+                                    <constraint firstItem="iwx-aL-J5E" firstAttribute="top" secondItem="RJR-SC-f92" secondAttribute="top" constant="20" id="uVK-lY-Jrd"/>
+                                    <constraint firstAttribute="trailing" secondItem="iwx-aL-J5E" secondAttribute="trailing" constant="20" id="uWr-A8-cS5"/>
+                                    <constraint firstItem="iwx-aL-J5E" firstAttribute="leading" secondItem="RJR-SC-f92" secondAttribute="leading" constant="20" id="ugj-cG-NbD"/>
+                                    <constraint firstItem="iwx-aL-J5E" firstAttribute="width" secondItem="Xgk-C7-bbs" secondAttribute="width" id="wfn-Wc-VsU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RJR-SC-f92" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="5gg-9z-577"/>
+                            <constraint firstItem="RJR-SC-f92" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Fur-wA-DRT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="129"/>
+        </scene>
+        <!--Register Step2 View Controller-->
+        <scene sceneID="Ddt-T7-xVZ">
+            <objects>
+                <viewController storyboardIdentifier="RegisterStep2ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FS1-Lx-0yw" customClass="RegisterStep2ViewController" customModule="iAmSDK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bdy-oX-7Fj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tP8-NL-L4O">
+                                <rect key="frame" x="146.5" y="387" width="121.5" height="122"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgK-VY-zRX">
+                                        <rect key="frame" x="20" y="20" width="81.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="返回"/>
+                                        <connections>
+                                            <action selector="onBackButtonTapped:" destination="FS1-Lx-0yw" eventType="touchUpInside" id="WJM-BV-PZ3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKK-7X-q4o">
+                                        <rect key="frame" x="20" y="71" width="81.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="註冊成功"/>
+                                        <connections>
+                                            <action selector="onRegisterSuccessButtonTapped:" destination="FS1-Lx-0yw" eventType="touchUpInside" id="KwQ-Hf-fbV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="FKK-7X-q4o" firstAttribute="centerX" secondItem="FgK-VY-zRX" secondAttribute="centerX" id="56u-My-73l"/>
+                                    <constraint firstItem="FKK-7X-q4o" firstAttribute="top" secondItem="FgK-VY-zRX" secondAttribute="bottom" constant="20" id="8Ky-PX-8en"/>
+                                    <constraint firstItem="FgK-VY-zRX" firstAttribute="width" secondItem="FKK-7X-q4o" secondAttribute="width" id="FcO-Uu-wLW"/>
+                                    <constraint firstAttribute="bottom" secondItem="FKK-7X-q4o" secondAttribute="bottom" constant="20" id="UCx-gt-KK0"/>
+                                    <constraint firstItem="FgK-VY-zRX" firstAttribute="height" secondItem="FKK-7X-q4o" secondAttribute="height" id="e6z-Bw-coo"/>
+                                    <constraint firstAttribute="trailing" secondItem="FgK-VY-zRX" secondAttribute="trailing" constant="20" id="nSO-a6-5UI"/>
+                                    <constraint firstItem="FgK-VY-zRX" firstAttribute="top" secondItem="tP8-NL-L4O" secondAttribute="top" constant="20" id="nj6-fG-zNg"/>
+                                    <constraint firstItem="FgK-VY-zRX" firstAttribute="leading" secondItem="tP8-NL-L4O" secondAttribute="leading" constant="20" id="vNt-G5-F7t"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SRB-y0-bMu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tP8-NL-L4O" firstAttribute="centerX" secondItem="bdy-oX-7Fj" secondAttribute="centerX" id="i3W-OU-jHw"/>
+                            <constraint firstItem="tP8-NL-L4O" firstAttribute="centerY" secondItem="bdy-oX-7Fj" secondAttribute="centerY" id="yoa-VO-v36"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xFh-fH-Eio" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="781" y="129"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

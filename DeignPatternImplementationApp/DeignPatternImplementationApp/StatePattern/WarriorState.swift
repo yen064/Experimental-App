@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 protocol WarriorState {
     func move(warrior: StatePattern.Warrior)
 }
