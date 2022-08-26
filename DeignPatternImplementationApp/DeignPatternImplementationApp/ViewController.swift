@@ -14,20 +14,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onTestButtonTapped(_ sender: Any) {
-//        testAlert()
-//        testCoordinator()
 //        testStatePattern()
 //        testSimpleFactoryPattern()
+//        testCoordinator()
+    }
+    func testStatePattern() {
+        StatePattern.test()
     }
     func testSimpleFactoryPattern() {
-        if let memberA: Adventurer = SimpleFactoryPattern.TraninigCamp.trainAdventurer(type: "ARCHER") {
-            print(memberA.getType())
-        }
-        if let memberB: Adventurer = SimpleFactoryPattern.TraninigCamp.trainAdventurer(type: "warrior") {
-            print(memberB.getType())
-        }
-        
-        
+        SimpleFactoryPattern.test()
     }
     func testCoordinator() {    
         let coordinator = MainCoordinator()
@@ -43,9 +38,6 @@ class ViewController: UIViewController {
             }
         }
         coordinator.start()
-    }
-    func testStatePattern() {
-        StatePattern.test()
     }
 
 
