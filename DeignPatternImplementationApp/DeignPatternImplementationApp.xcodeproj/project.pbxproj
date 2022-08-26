@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA1B9C0A28B86E1B00987707 /* SimpleFactoryWarrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C0928B86E1B00987707 /* SimpleFactoryWarrior.swift */; };
+		CA1B9C0C28B86E4900987707 /* SimpleFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C0B28B86E4900987707 /* SimpleFactoryPattern.swift */; };
+		CA1B9C0E28B86E7D00987707 /* TrainingCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C0D28B86E7D00987707 /* TrainingCamp.swift */; };
+		CA1B9C1028B8703100987707 /* SimpleFactoryArcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C0F28B8703100987707 /* SimpleFactoryArcher.swift */; };
+		CA1B9C1228B872E800987707 /* SimpleFactoryAdventurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C1128B872E800987707 /* SimpleFactoryAdventurer.swift */; };
 		CA30AAF628B7C338004B806C /* MemberUpgradeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30AAE028B7C338004B806C /* MemberUpgradeCoordinator.swift */; };
 		CA30AAF728B7C338004B806C /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30AAE128B7C338004B806C /* LoginCoordinator.swift */; };
 		CA30AAF828B7C338004B806C /* SecurityPwdSetupCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30AAE328B7C338004B806C /* SecurityPwdSetupCoordinator.swift */; };
@@ -57,6 +62,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA1B9C0928B86E1B00987707 /* SimpleFactoryWarrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryWarrior.swift; sourceTree = "<group>"; };
+		CA1B9C0B28B86E4900987707 /* SimpleFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryPattern.swift; sourceTree = "<group>"; };
+		CA1B9C0D28B86E7D00987707 /* TrainingCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCamp.swift; sourceTree = "<group>"; };
+		CA1B9C0F28B8703100987707 /* SimpleFactoryArcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryArcher.swift; sourceTree = "<group>"; };
+		CA1B9C1128B872E800987707 /* SimpleFactoryAdventurer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryAdventurer.swift; sourceTree = "<group>"; };
 		CA30AAE028B7C338004B806C /* MemberUpgradeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberUpgradeCoordinator.swift; sourceTree = "<group>"; };
 		CA30AAE128B7C338004B806C /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		CA30AAE328B7C338004B806C /* SecurityPwdSetupCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityPwdSetupCoordinator.swift; sourceTree = "<group>"; };
@@ -118,6 +128,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA1B9C0828B86DEB00987707 /* SimpleFactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				CA1B9C0B28B86E4900987707 /* SimpleFactoryPattern.swift */,
+				CA1B9C1128B872E800987707 /* SimpleFactoryAdventurer.swift */,
+				CA1B9C0F28B8703100987707 /* SimpleFactoryArcher.swift */,
+				CA1B9C0928B86E1B00987707 /* SimpleFactoryWarrior.swift */,
+				CA1B9C0D28B86E7D00987707 /* TrainingCamp.swift */,
+			);
+			path = SimpleFactoryPattern;
+			sourceTree = "<group>";
+		};
 		CA30AADE28B7C338004B806C /* CoordinatorPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +249,7 @@
 		CA33D6BF28B71B0900AD8BD8 /* DeignPatternImplementationApp */ = {
 			isa = PBXGroup;
 			children = (
+				CA1B9C0828B86DEB00987707 /* SimpleFactoryPattern */,
 				CA30AADE28B7C338004B806C /* CoordinatorPattern */,
 				CA33D6FA28B724AF00AD8BD8 /* StatePattern */,
 				CA33D6F328B71B6200AD8BD8 /* Tool */,
@@ -414,6 +437,8 @@
 			files = (
 				CA30AAF828B7C338004B806C /* SecurityPwdSetupCoordinator.swift in Sources */,
 				CA30AAFA28B7C338004B806C /* MainCoordinator.swift in Sources */,
+				CA1B9C0A28B86E1B00987707 /* SimpleFactoryWarrior.swift in Sources */,
+				CA1B9C1228B872E800987707 /* SimpleFactoryAdventurer.swift in Sources */,
 				CA30AAFB28B7C338004B806C /* Coordinator.swift in Sources */,
 				CA30AB0428B7C338004B806C /* LoginInfoManager.swift in Sources */,
 				CA30AAFE28B7C338004B806C /* SixPwdSetupViewController.swift in Sources */,
@@ -421,8 +446,11 @@
 				CA30AAFF28B7C338004B806C /* GraphicPwdSetupViewController.swift in Sources */,
 				CA30AAF928B7C338004B806C /* RegisterCoordinator.swift in Sources */,
 				CA33D6C128B71B0900AD8BD8 /* AppDelegate.swift in Sources */,
+				CA1B9C0E28B86E7D00987707 /* TrainingCamp.swift in Sources */,
 				CA30AB0028B7C338004B806C /* LoginViewController.swift in Sources */,
 				CA33D6F528B71B8000AD8BD8 /* FunctionHelper.swift in Sources */,
+				CA1B9C0C28B86E4900987707 /* SimpleFactoryPattern.swift in Sources */,
+				CA1B9C1028B8703100987707 /* SimpleFactoryArcher.swift in Sources */,
 				CA30AAF628B7C338004B806C /* MemberUpgradeCoordinator.swift in Sources */,
 				CA30AAF728B7C338004B806C /* LoginCoordinator.swift in Sources */,
 				CA33D70028B725CD00AD8BD8 /* WarriorState.swift in Sources */,
