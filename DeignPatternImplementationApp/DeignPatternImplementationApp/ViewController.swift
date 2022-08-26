@@ -16,9 +16,18 @@ class ViewController: UIViewController {
     @IBAction func onTestButtonTapped(_ sender: Any) {
 //        testAlert()
 //        testStatePattern()
+//        testCoordinator()
         
-        testCoordinator()
+        testSimpleFactoryPattern()
         
+    }
+    func testSimpleFactoryPattern() {
+        if let memberA: SimpleFactoryAdventurer = TraninigCamp.trainAdventurer(type: "ARCHER") {
+            print(memberA.getType())
+        }
+        if let memberB: SimpleFactoryAdventurer = TraninigCamp.trainAdventurer(type: "warrior") {
+            print(memberB.getType())
+        }
     }
     func testCoordinator() {    
         let coordinator = MainCoordinator()
