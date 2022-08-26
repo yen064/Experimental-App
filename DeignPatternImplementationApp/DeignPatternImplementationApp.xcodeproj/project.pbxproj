@@ -39,6 +39,8 @@
 		CA76381128B8C97F004822FC /* Adventurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381028B8C97F004822FC /* Adventurer.swift */; };
 		CA76381328B8CABB004822FC /* WorriorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381228B8CABB004822FC /* WorriorState.swift */; };
 		CA76381528B8CAE5004822FC /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381428B8CAE5004822FC /* StatePattern.swift */; };
+		CA76381728B8CCC4004822FC /* FactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381628B8CCC4004822FC /* FactoryPattern.swift */; };
+		CA76381928B8CDE3004822FC /* TrainingCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381828B8CDE3004822FC /* TrainingCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		CA76381028B8C97F004822FC /* Adventurer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventurer.swift; sourceTree = "<group>"; };
 		CA76381228B8CABB004822FC /* WorriorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorriorState.swift; sourceTree = "<group>"; };
 		CA76381428B8CAE5004822FC /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
+		CA76381628B8CCC4004822FC /* FactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryPattern.swift; sourceTree = "<group>"; };
+		CA76381828B8CDE3004822FC /* TrainingCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +283,8 @@
 				CA76381028B8C97F004822FC /* Adventurer.swift */,
 				CA76381228B8CABB004822FC /* WorriorState.swift */,
 				CA1B9C0B28B86E4900987707 /* SimpleFactoryPattern.swift */,
+				CA76381828B8CDE3004822FC /* TrainingCamp.swift */,
+				CA76381628B8CCC4004822FC /* FactoryPattern.swift */,
 				CA76381428B8CAE5004822FC /* StatePattern.swift */,
 			);
 			path = "GoF Design Patterns";
@@ -439,8 +445,10 @@
 				CA33D6CB28B71B0900AD8BD8 /* DeignPatternImplementationApp.xcdatamodeld in Sources */,
 				CA30AAFD28B7C338004B806C /* RegisterViewController.swift in Sources */,
 				CA33D6C328B71B0900AD8BD8 /* SceneDelegate.swift in Sources */,
+				CA76381728B8CCC4004822FC /* FactoryPattern.swift in Sources */,
 				CA33D6F928B7205500AD8BD8 /* Storyboarded.swift in Sources */,
 				CA76381328B8CABB004822FC /* WorriorState.swift in Sources */,
+				CA76381928B8CDE3004822FC /* TrainingCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

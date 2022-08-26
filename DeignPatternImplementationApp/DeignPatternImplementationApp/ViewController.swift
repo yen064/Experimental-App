@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     @IBAction func onTestButtonTapped(_ sender: Any) {
 //        testStatePattern()
 //        testSimpleFactoryPattern()
+        testFactoryPattern()
+
 //        testCoordinator()
     }
     func testStatePattern() {
@@ -23,6 +25,9 @@ class ViewController: UIViewController {
     }
     func testSimpleFactoryPattern() {
         SimpleFactoryPattern.test()
+    }
+    func testFactoryPattern() {
+        FactoryPattern.test()
     }
     func testCoordinator() {    
         let coordinator = MainCoordinator()
