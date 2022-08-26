@@ -15,11 +15,9 @@ class ViewController: UIViewController {
     
     @IBAction func onTestButtonTapped(_ sender: Any) {
 //        testAlert()
-//        testStatePattern()
 //        testCoordinator()
-        
-        testSimpleFactoryPattern()
-        
+//        testStatePattern()
+//        testSimpleFactoryPattern()
     }
     func testSimpleFactoryPattern() {
         if let memberA: Adventurer = SimpleFactoryPattern.TraninigCamp.trainAdventurer(type: "ARCHER") {
@@ -47,18 +45,9 @@ class ViewController: UIViewController {
         coordinator.start()
     }
     func testStatePattern() {
-        StatePattern.Warrior.test()
+        StatePattern.test()
     }
-    func testAlert() {
-        let okAA = FunctionHelper.defaultOkAlertAction("OK, 好") { aa in
-            print("okAA")
-        }
-        FunctionHelper.loading()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-            FunctionHelper.stopLoading()
-            FunctionHelper.alert(message: "測試1", okAlertAction: okAA)
-        }
-    }
+
 
 
 }
