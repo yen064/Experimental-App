@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA1B9C0A28B86E1B00987707 /* SimpleFactoryWarrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C0928B86E1B00987707 /* SimpleFactoryWarrior.swift */; };
 		CA1B9C0C28B86E4900987707 /* SimpleFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C0B28B86E4900987707 /* SimpleFactoryPattern.swift */; };
-		CA1B9C0E28B86E7D00987707 /* TrainingCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C0D28B86E7D00987707 /* TrainingCamp.swift */; };
-		CA1B9C1028B8703100987707 /* SimpleFactoryArcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C0F28B8703100987707 /* SimpleFactoryArcher.swift */; };
-		CA1B9C1228B872E800987707 /* SimpleFactoryAdventurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B9C1128B872E800987707 /* SimpleFactoryAdventurer.swift */; };
 		CA30AAF628B7C338004B806C /* MemberUpgradeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30AAE028B7C338004B806C /* MemberUpgradeCoordinator.swift */; };
 		CA30AAF728B7C338004B806C /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30AAE128B7C338004B806C /* LoginCoordinator.swift */; };
 		CA30AAF828B7C338004B806C /* SecurityPwdSetupCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30AAE328B7C338004B806C /* SecurityPwdSetupCoordinator.swift */; };
@@ -40,8 +36,11 @@
 		CA33D6F528B71B8000AD8BD8 /* FunctionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6F428B71B8000AD8BD8 /* FunctionHelper.swift */; };
 		CA33D6F728B7201200AD8BD8 /* SDKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6F628B7201200AD8BD8 /* SDKError.swift */; };
 		CA33D6F928B7205500AD8BD8 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6F828B7205500AD8BD8 /* Storyboarded.swift */; };
-		CA33D6FE28B7251300AD8BD8 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6FD28B7251300AD8BD8 /* Warrior.swift */; };
-		CA33D70028B725CD00AD8BD8 /* WarriorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D6FF28B725CD00AD8BD8 /* WarriorState.swift */; };
+		CA76381128B8C97F004822FC /* Adventurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381028B8C97F004822FC /* Adventurer.swift */; };
+		CA76381328B8CABB004822FC /* WorriorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381228B8CABB004822FC /* WorriorState.swift */; };
+		CA76381528B8CAE5004822FC /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381428B8CAE5004822FC /* StatePattern.swift */; };
+		CA76381728B8CCC4004822FC /* FactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381628B8CCC4004822FC /* FactoryPattern.swift */; };
+		CA76381928B8CDE3004822FC /* TrainingCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76381828B8CDE3004822FC /* TrainingCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,11 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA1B9C0928B86E1B00987707 /* SimpleFactoryWarrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryWarrior.swift; sourceTree = "<group>"; };
 		CA1B9C0B28B86E4900987707 /* SimpleFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryPattern.swift; sourceTree = "<group>"; };
-		CA1B9C0D28B86E7D00987707 /* TrainingCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCamp.swift; sourceTree = "<group>"; };
-		CA1B9C0F28B8703100987707 /* SimpleFactoryArcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryArcher.swift; sourceTree = "<group>"; };
-		CA1B9C1128B872E800987707 /* SimpleFactoryAdventurer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryAdventurer.swift; sourceTree = "<group>"; };
 		CA30AAE028B7C338004B806C /* MemberUpgradeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberUpgradeCoordinator.swift; sourceTree = "<group>"; };
 		CA30AAE128B7C338004B806C /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		CA30AAE328B7C338004B806C /* SecurityPwdSetupCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityPwdSetupCoordinator.swift; sourceTree = "<group>"; };
@@ -99,8 +94,11 @@
 		CA33D6F428B71B8000AD8BD8 /* FunctionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionHelper.swift; sourceTree = "<group>"; };
 		CA33D6F628B7201200AD8BD8 /* SDKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKError.swift; sourceTree = "<group>"; };
 		CA33D6F828B7205500AD8BD8 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		CA33D6FD28B7251300AD8BD8 /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
-		CA33D6FF28B725CD00AD8BD8 /* WarriorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarriorState.swift; sourceTree = "<group>"; };
+		CA76381028B8C97F004822FC /* Adventurer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventurer.swift; sourceTree = "<group>"; };
+		CA76381228B8CABB004822FC /* WorriorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorriorState.swift; sourceTree = "<group>"; };
+		CA76381428B8CAE5004822FC /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
+		CA76381628B8CCC4004822FC /* FactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryPattern.swift; sourceTree = "<group>"; };
+		CA76381828B8CDE3004822FC /* TrainingCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,18 +126,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CA1B9C0828B86DEB00987707 /* SimpleFactoryPattern */ = {
-			isa = PBXGroup;
-			children = (
-				CA1B9C0B28B86E4900987707 /* SimpleFactoryPattern.swift */,
-				CA1B9C1128B872E800987707 /* SimpleFactoryAdventurer.swift */,
-				CA1B9C0F28B8703100987707 /* SimpleFactoryArcher.swift */,
-				CA1B9C0928B86E1B00987707 /* SimpleFactoryWarrior.swift */,
-				CA1B9C0D28B86E7D00987707 /* TrainingCamp.swift */,
-			);
-			path = SimpleFactoryPattern;
-			sourceTree = "<group>";
-		};
 		CA30AADE28B7C338004B806C /* CoordinatorPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,9 +235,8 @@
 		CA33D6BF28B71B0900AD8BD8 /* DeignPatternImplementationApp */ = {
 			isa = PBXGroup;
 			children = (
-				CA1B9C0828B86DEB00987707 /* SimpleFactoryPattern */,
+				CA76380F28B8C955004822FC /* GoF Design Patterns */,
 				CA30AADE28B7C338004B806C /* CoordinatorPattern */,
-				CA33D6FA28B724AF00AD8BD8 /* StatePattern */,
 				CA33D6F328B71B6200AD8BD8 /* Tool */,
 				CA33D6C028B71B0900AD8BD8 /* AppDelegate.swift */,
 				CA33D6C228B71B0900AD8BD8 /* SceneDelegate.swift */,
@@ -292,13 +277,17 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		CA33D6FA28B724AF00AD8BD8 /* StatePattern */ = {
+		CA76380F28B8C955004822FC /* GoF Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				CA33D6FD28B7251300AD8BD8 /* Warrior.swift */,
-				CA33D6FF28B725CD00AD8BD8 /* WarriorState.swift */,
+				CA76381028B8C97F004822FC /* Adventurer.swift */,
+				CA76381228B8CABB004822FC /* WorriorState.swift */,
+				CA1B9C0B28B86E4900987707 /* SimpleFactoryPattern.swift */,
+				CA76381828B8CDE3004822FC /* TrainingCamp.swift */,
+				CA76381628B8CCC4004822FC /* FactoryPattern.swift */,
+				CA76381428B8CAE5004822FC /* StatePattern.swift */,
 			);
-			path = StatePattern;
+			path = "GoF Design Patterns";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,8 +426,6 @@
 			files = (
 				CA30AAF828B7C338004B806C /* SecurityPwdSetupCoordinator.swift in Sources */,
 				CA30AAFA28B7C338004B806C /* MainCoordinator.swift in Sources */,
-				CA1B9C0A28B86E1B00987707 /* SimpleFactoryWarrior.swift in Sources */,
-				CA1B9C1228B872E800987707 /* SimpleFactoryAdventurer.swift in Sources */,
 				CA30AAFB28B7C338004B806C /* Coordinator.swift in Sources */,
 				CA30AB0428B7C338004B806C /* LoginInfoManager.swift in Sources */,
 				CA30AAFE28B7C338004B806C /* SixPwdSetupViewController.swift in Sources */,
@@ -446,21 +433,22 @@
 				CA30AAFF28B7C338004B806C /* GraphicPwdSetupViewController.swift in Sources */,
 				CA30AAF928B7C338004B806C /* RegisterCoordinator.swift in Sources */,
 				CA33D6C128B71B0900AD8BD8 /* AppDelegate.swift in Sources */,
-				CA1B9C0E28B86E7D00987707 /* TrainingCamp.swift in Sources */,
 				CA30AB0028B7C338004B806C /* LoginViewController.swift in Sources */,
 				CA33D6F528B71B8000AD8BD8 /* FunctionHelper.swift in Sources */,
 				CA1B9C0C28B86E4900987707 /* SimpleFactoryPattern.swift in Sources */,
-				CA1B9C1028B8703100987707 /* SimpleFactoryArcher.swift in Sources */,
 				CA30AAF628B7C338004B806C /* MemberUpgradeCoordinator.swift in Sources */,
 				CA30AAF728B7C338004B806C /* LoginCoordinator.swift in Sources */,
-				CA33D70028B725CD00AD8BD8 /* WarriorState.swift in Sources */,
 				CA30AAFC28B7C338004B806C /* RegisterStep2ViewController.swift in Sources */,
 				CA33D6F728B7201200AD8BD8 /* SDKError.swift in Sources */,
+				CA76381528B8CAE5004822FC /* StatePattern.swift in Sources */,
+				CA76381128B8C97F004822FC /* Adventurer.swift in Sources */,
 				CA33D6CB28B71B0900AD8BD8 /* DeignPatternImplementationApp.xcdatamodeld in Sources */,
 				CA30AAFD28B7C338004B806C /* RegisterViewController.swift in Sources */,
-				CA33D6FE28B7251300AD8BD8 /* Warrior.swift in Sources */,
 				CA33D6C328B71B0900AD8BD8 /* SceneDelegate.swift in Sources */,
+				CA76381728B8CCC4004822FC /* FactoryPattern.swift in Sources */,
 				CA33D6F928B7205500AD8BD8 /* Storyboarded.swift in Sources */,
+				CA76381328B8CABB004822FC /* WorriorState.swift in Sources */,
+				CA76381928B8CDE3004822FC /* TrainingCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

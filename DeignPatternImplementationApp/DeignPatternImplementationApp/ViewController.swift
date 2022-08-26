@@ -14,20 +14,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onTestButtonTapped(_ sender: Any) {
-//        testAlert()
 //        testStatePattern()
+//        testSimpleFactoryPattern()
+        testFactoryPattern()
+
 //        testCoordinator()
-        
-        testSimpleFactoryPattern()
-        
+    }
+    func testStatePattern() {
+        StatePattern.test()
     }
     func testSimpleFactoryPattern() {
-        if let memberA: SimpleFactoryAdventurer = TraninigCamp.trainAdventurer(type: "ARCHER") {
-            print(memberA.getType())
-        }
-        if let memberB: SimpleFactoryAdventurer = TraninigCamp.trainAdventurer(type: "warrior") {
-            print(memberB.getType())
-        }
+        SimpleFactoryPattern.test()
+    }
+    func testFactoryPattern() {
+        FactoryPattern.test()
     }
     func testCoordinator() {    
         let coordinator = MainCoordinator()
@@ -44,19 +44,7 @@ class ViewController: UIViewController {
         }
         coordinator.start()
     }
-    func testStatePattern() {
-        StatePattern.Warrior.test()
-    }
-    func testAlert() {
-        let okAA = FunctionHelper.defaultOkAlertAction("OK, 好") { aa in
-            print("okAA")
-        }
-        FunctionHelper.loading()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-            FunctionHelper.stopLoading()
-            FunctionHelper.alert(message: "測試1", okAlertAction: okAA)
-        }
-    }
+
 
 
 }
