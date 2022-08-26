@@ -7,7 +7,6 @@
 
 import Foundation
 
-protocol SimpleFactoryAdventurer {
+protocol Adventurer {
     func getType() -> String
 }
-

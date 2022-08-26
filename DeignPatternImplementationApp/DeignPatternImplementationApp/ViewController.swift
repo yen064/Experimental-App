@@ -22,12 +22,14 @@ class ViewController: UIViewController {
         
     }
     func testSimpleFactoryPattern() {
-        if let memberA: SimpleFactoryAdventurer = TraninigCamp.trainAdventurer(type: "ARCHER") {
+        if let memberA: Adventurer = SimpleFactoryPattern.TraninigCamp.trainAdventurer(type: "ARCHER") {
             print(memberA.getType())
         }
-        if let memberB: SimpleFactoryAdventurer = TraninigCamp.trainAdventurer(type: "warrior") {
+        if let memberB: Adventurer = SimpleFactoryPattern.TraninigCamp.trainAdventurer(type: "warrior") {
             print(memberB.getType())
         }
+        
+        
     }
     func testCoordinator() {    
         let coordinator = MainCoordinator()

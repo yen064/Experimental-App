@@ -37,3 +37,39 @@ import Foundation
  *
  *
  */
+
+
+// MARK: -
+
+class SimpleFactoryPattern {
+    
+    class Warrior: Adventurer {
+        func getType() -> String {
+            print("我是鬥士")
+            let myType = type(of: self)
+            return String(describing: myType)
+        }
+    }
+    class Archer: Adventurer {
+        func getType() -> String {
+            print("我是弓箭手")
+            let myType = type(of: self)
+            return String(describing: myType)
+        }
+    }
+    class TraninigCamp {
+        static func trainAdventurer(type: String) -> Adventurer? {
+            switch type.lowercased() {
+            case "archer":
+                print("訓練了一個弓箭手")
+                return Archer()
+            case "warrior":
+                print("訓練了一個鬥士")
+                return Warrior()
+            default:
+                return nil
+            }
+        }
+    }
+
+}
